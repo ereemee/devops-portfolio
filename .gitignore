@@ -218,3 +218,11 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# secrets / local
+.env
+*.pem
+kubeconfig
+*.tfstate*
+.terraform/
+*.log
