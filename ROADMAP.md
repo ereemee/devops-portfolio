@@ -10,12 +10,12 @@ QA 엔지니어 → DevOps 전환을 위한 8단계 학습·실습 로드맵입�
 
 ## 0. 준비
 - [x] 저장소 생성 (README, .gitignore(Python), MIT 라이선스)
-- [ ] 폴더 구조 · `.gitattributes`(.sh 파일 LF 고정)
-- [ ] README · ROADMAP 초안 작성
+- [x] 폴더 구조 · `.gitattributes`(.sh 파일 LF 고정)
+- [x] README · ROADMAP 초안 작성
 
 ## 1. Linux·운영체제 기초 (`linux/`)
-- [ ] WSL2(Ubuntu) 환경 구성
-- [ ] 서버 점검 스크립트 (디스크·메모리·프로세스) — `linux/server_check.sh`
+- [x] WSL2(Ubuntu) 환경 구성
+- [x] 서버 점검 스크립트 (디스크·메모리·프로세스) — `linux/server_check.sh`
 - [ ] 파일·권한·사용자·그룹 정리 (chmod, chown)
 - [ ] 프로세스·서비스 관리 정리 (ps, top, systemd)
 - [ ] 패키지 관리(apt)·로그 보기(journalctl) 정리
