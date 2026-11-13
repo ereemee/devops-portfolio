@@ -66,3 +66,4 @@ QA 엔지니어 → DevOps 전환을 위한 8단계 학습·실습 로드맵입�
 
 ## 🔗 연결 과제 (선택)
 - [ ] mobile-qa-automation 테스트를 CI/CD·Docker 환경에서 실행
+
