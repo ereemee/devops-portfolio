@@ -68,3 +68,17 @@ chmod u+x,go-w file               # 기호 방식 (u 소유자, g 그룹, o 기�
 | `ls: cannot access` | 경로 오타 또는 폴더 없음 | `pwd`로 위치 확인, 철자 확인 |
 | `env: $'bash\r': No such file or directory` | 스크립트가 CRLF 줄바꿈으로 저장됨 | `sed -i 's/\r$//' 파일` 후 VS Code에서 LF로 저장 |
 | | | |
+
+## 4. 사용자·그룹·소유권 (2026-11-20)
+| 명령 | 뜻 |
+| --- | --- |
+| `id <user>` | UID·GID·소속 그룹 확인 |
+| `sudo usermod -aG <그룹> <user>` | 그룹에 추가 (`-a` 빠지면 기존 그룹이 사라짐!) |
+| `sudo chown user:group 파일` | 소유자·그룹 변경 |
+
+## 5. 프로세스·systemd
+| 명령 | 뜻 |
+| --- | --- |
+| `systemctl status <svc>` | 상태·최근 로그 |
+| `systemctl enable <svc>` | 부팅 시 자동 시작 |
+| `journalctl -u <svc> -n 20` | 서비스 로그 최근 20줄 |
